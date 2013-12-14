@@ -2,7 +2,7 @@
 I was after some different colours to what was available through the Windows command and PowerShell prompts (in particular the solarized colour scheme). This small utility allows you to change the RGB values of the built-in colours.
 
 ## Pre-requisites
-Created with Visual Studio 2013 Express, compiled with .Net 3.5, and using CommandLineParser and ILMerge nuget packages.
+Created with Visual Studio 2013 Express, compiled with .Net 3.5, and using CommandLineParser and ILMerge nuget packages. I use StyleCop to help me keep my coding style consistent, but it can be turned off by removing the line `<Import Project="$(ProgramFiles)\MSBuild\StyleCop\v4.7\StyleCop.targets" />` from `SetConsoleOptions.csproj`.
 
 ## Compiling
 After extracting the code, download the required nuget packages using a command similar to `Update-Package -Reinstall` and then run `build.ps1` to generate a release exectuable.
