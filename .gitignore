@@ -14,8 +14,11 @@ x64/
 build/
 [Bb]in/
 [Oo]bj/
+[Oo]utput/
 
 # Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
+!NuGet.exe
+packages/*
 !packages/*/build/
 
 # MSTest test Results
