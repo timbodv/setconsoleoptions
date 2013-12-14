@@ -1,0 +1,2 @@
+setconsoleoptions
+=================
